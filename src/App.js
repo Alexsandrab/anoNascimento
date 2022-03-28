@@ -21,7 +21,7 @@ function App() {
     }
   }
   // comparar as entradas para poder desabilitar o botao
-  const desabilitarBotao = idade!=0 && dtNascimento !== anoAtual;
+  const desabilitarBotao = idade!=0 && dtNascimento != anoAtual;
 
   const recarregarPg = () =>{
     window.location.reload();
